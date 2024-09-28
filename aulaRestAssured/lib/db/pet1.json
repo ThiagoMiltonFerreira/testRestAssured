@@ -1,0 +1,18 @@
+{
+  "id": 0,
+  "category": {
+    "id": 2809,
+    "name": "Cachorro"
+  },
+  "name": "Megg",
+  "photoUrls": [
+    "https://optimumpet.com.br/media/uploads/2023/11/racas-de-cachorro-pequeno-chihuahua-scaled.webp"
+  ],
+  "tags": [
+    {
+      "id": 2021,
+      "name": "gramado"
+    }
+  ],
+  "status": "Disponivel"
+}

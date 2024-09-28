@@ -1,0 +1,18 @@
+{
+  "id": 2809,
+  "category": {
+    "id": 1,
+    "name": "Cachorro"
+  },
+  "name": "sheik",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 2809,
+      "name": "gramado"
+    }
+  ],
+  "status": "vendido"
+}

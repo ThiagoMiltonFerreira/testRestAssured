@@ -1,0 +1,213 @@
+Request method:	POST
+1Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+2				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "category": {
+        "id": 2809,
+        "name": "Cachorro"
+    },
+    "name": "Megg",
+    "photoUrls": [
+j        "https://optimumpet.com.br/media/uploads/2023/11/racas-de-cachorro-pequeno-chihuahua-scaled.webp"
+    ],
+    "tags": [
+
+        {
+            "id": 2021,
+            "name": "gramado"
+
+        }
+    ],
+    "status": "Disponivel"
+}
+HTTP/1.1 200 OK
+%Date: Sat, 28 Sep 2024 20:19:08 GMT
+ Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+ Access-Control-Allow-Origin: *
+6Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
+ Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 9223372036854775807,
+    "category": {
+        "id": 2809,
+        "name": "Cachorro"
+    },
+    "name": "Megg",
+    "photoUrls": [
+j        "https://optimumpet.com.br/media/uploads/2023/11/racas-de-cachorro-pequeno-chihuahua-scaled.webp"
+    ],
+    "tags": [
+
+        {
+            "id": 2021,
+            "name": "gramado"
+
+        }
+    ],
+    "status": "Disponivel"
+}
+Request method:	PUT
+1Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+2				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 2809,
+    "category": {
+        "id": 1,
+        "name": "Cachorro"
+    },
+    "name": "sheik",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+
+        {
+            "id": 2809,
+            "name": "gramado"
+
+        }
+    ],
+    "status": "vendido"
+}
+HTTP/1.1 200 OK
+%Date: Sat, 28 Sep 2024 20:19:10 GMT
+ Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+ Access-Control-Allow-Origin: *
+6Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
+ Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 2809,
+    "category": {
+        "id": 1,
+        "name": "Cachorro"
+    },
+    "name": "sheik",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+
+        {
+            "id": 2809,
+            "name": "gramado"
+
+        }
+    ],
+    "status": "vendido"
+}
+Request method:	GET
+6Request URI:	https://petstore.swagger.io/v2/pet/2809
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+2				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "category": {
+        "id": 2809,
+        "name": "Cachorro"
+    },
+    "name": "Megg",
+    "photoUrls": [
+j        "https://optimumpet.com.br/media/uploads/2023/11/racas-de-cachorro-pequeno-chihuahua-scaled.webp"
+    ],
+    "tags": [
+
+        {
+            "id": 2021,
+            "name": "gramado"
+
+        }
+    ],
+    "status": "Disponivel"
+}
+HTTP/1.1 200 OK
+%Date: Sat, 28 Sep 2024 20:19:10 GMT
+ Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+ Access-Control-Allow-Origin: *
+6Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
+ Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 2809,
+    "category": {
+        "id": 1,
+        "name": "Cachorro"
+    },
+    "name": "sheik",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+
+        {
+            "id": 2809,
+            "name": "gramado"
+
+        }
+    ],
+    "status": "vendido"
+}
+Request method:	DELETE
+6Request URI:	https://petstore.swagger.io/v2/pet/2809
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+2				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+%Date: Sat, 28 Sep 2024 20:19:11 GMT
+ Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+ Access-Control-Allow-Origin: *
+6Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
+ Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "2809"
+}

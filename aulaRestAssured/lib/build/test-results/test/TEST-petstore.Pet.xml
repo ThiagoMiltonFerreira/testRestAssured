@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="petstore.Pet" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-09-28T20:19:06" hostname="DESKTOP-5AFG3AE" time="5.922">
+  <properties/>
+  <testcase name="CadastrarPetValido" classname="petstore.Pet" time="3.402"/>
+  <testcase name="alterarPet" classname="petstore.Pet" time="0.831"/>
+  <testcase name="consultarPet" classname="petstore.Pet" time="0.818"/>
+  <testcase name="excluirPet" classname="petstore.Pet" time="0.865"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "category": {
+        "id": 2809,
+        "name": "Cachorro"
+    },
+    "name": "Megg",
+    "photoUrls": [
+        "https://optimumpet.com.br/media/uploads/2023/11/racas-de-cachorro-pequeno-chihuahua-scaled.webp"
+    ],
+    "tags": [
+        {
+            "id": 2021,
+            "name": "gramado"
+        }
+    ],
+    "status": "Disponivel"
+}
+HTTP/1.1 200 OK
+Date: Sat, 28 Sep 2024 20:19:08 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 9223372036854775807,
+    "category": {
+        "id": 2809,
+        "name": "Cachorro"
+    },
+    "name": "Megg",
+    "photoUrls": [
+        "https://optimumpet.com.br/media/uploads/2023/11/racas-de-cachorro-pequeno-chihuahua-scaled.webp"
+    ],
+    "tags": [
+        {
+            "id": 2021,
+            "name": "gramado"
+        }
+    ],
+    "status": "Disponivel"
+}
+Request method:	PUT
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 2809,
+    "category": {
+        "id": 1,
+        "name": "Cachorro"
+    },
+    "name": "sheik",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 2809,
+            "name": "gramado"
+        }
+    ],
+    "status": "vendido"
+}
+HTTP/1.1 200 OK
+Date: Sat, 28 Sep 2024 20:19:10 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 2809,
+    "category": {
+        "id": 1,
+        "name": "Cachorro"
+    },
+    "name": "sheik",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 2809,
+            "name": "gramado"
+        }
+    ],
+    "status": "vendido"
+}
+Request method:	GET
+Request URI:	https://petstore.swagger.io/v2/pet/2809
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "category": {
+        "id": 2809,
+        "name": "Cachorro"
+    },
+    "name": "Megg",
+    "photoUrls": [
+        "https://optimumpet.com.br/media/uploads/2023/11/racas-de-cachorro-pequeno-chihuahua-scaled.webp"
+    ],
+    "tags": [
+        {
+            "id": 2021,
+            "name": "gramado"
+        }
+    ],
+    "status": "Disponivel"
+}
+HTTP/1.1 200 OK
+Date: Sat, 28 Sep 2024 20:19:10 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 2809,
+    "category": {
+        "id": 1,
+        "name": "Cachorro"
+    },
+    "name": "sheik",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 2809,
+            "name": "gramado"
+        }
+    ],
+    "status": "vendido"
+}
+Request method:	DELETE
+Request URI:	https://petstore.swagger.io/v2/pet/2809
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 28 Sep 2024 20:19:11 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "2809"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
